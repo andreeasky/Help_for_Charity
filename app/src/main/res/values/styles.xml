@@ -1,0 +1,248 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Main_Layout_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/app_background_color</item>
+    </style>
+
+    <style name="Main_Image_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="App_Name_TextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/textSize_AppName</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="Motto_TextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/textSize_Button_and_Motto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/color_background_Motto</item>
+        <item name="android:shadowColor">#000</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:padding">@dimen/padding_tiny</item>
+        <item name="android:layout_alignBottom">@+id/Main_Image</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="RelativeLayout_1_2_3_Style">
+        <item name="android:layout_marginTop">@dimen/margin_large</item>
+        <item name="android:layout_marginLeft">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginRight">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginBottom">@dimen/margin_tiny</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/card</item>
+    </style>
+
+
+    <style name="Card_Header_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/textSize_cardHeader</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/color_blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:paddingBottom">@dimen/padding_small</item>
+        <item name="android:paddingEnd">@dimen/padding_small</item>
+        <item name="android:paddingStart">@dimen/padding_medium</item>
+    </style>
+
+    <style name="Justify_TextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/color_background_light_purple</item>
+    </style>
+
+
+    <style name="HorizontalScrollView_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/margin_small</item>
+        <item name="android:layout_marginLeft">@dimen/margin_tiny</item>
+    </style>
+
+    <style name="Charities_ImageStyle">
+        <item name="android:layout_width">@dimen/Charities_layout_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
+    </style>
+
+    <style name="LinearLayout_2_11_and_12_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_large</item>
+        <item name="android:layout_marginLeft">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginRight">@dimen/margin_extra_large</item>
+        <item name="android:layout_marginBottom">@dimen/margin_tiny</item>
+        <item name="android:background">@drawable/card</item>
+    </style>
+
+    <style name="LinearLayout4_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">@dimen/padding_large</item>
+        <item name="android:paddingBottom">@dimen/padding_tiny_x</item>
+    </style>
+
+    <style name="MottoText_Button_Style">
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:textSize">@dimen/textSize_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">@dimen/Charities_layout_width</item>
+        <item name="android:layout_height">@dimen/Motto_Buttons_TextView_height</item>
+        <item name="android:layout_weight">0.33</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Button_Style">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textSize">@dimen/textSize_Button_and_Motto</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:layout_marginLeft">@dimen/margin_large</item>
+        <item name="android:layout_marginRight">@dimen/margin_large</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TextMessage_Button_Style">
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:textSize">@dimen/textSize_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">@dimen/Charities_layout_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.33</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+
+    <style name="LinearLayout5_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">@dimen/padding_tiny_x</item>
+        <item name="android:paddingBottom">@dimen/padding_tiny_x</item>
+    </style>
+
+    <style name="LinearLayout6_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">@dimen/padding_tiny_x</item>
+        <item name="android:paddingBottom">@dimen/padding_large</item>
+    </style>
+
+
+    <style name="LinearLayout_ContactDetails_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/color_background_light_purple</item>
+    </style>
+
+    <style name="LocationIcon_ImageStyle">
+        <item name="android:layout_width">@dimen/icons_width_and_height</item>
+        <item name="android:layout_height">@dimen/icons_width_and_height</item>
+        <item name="android:background">@color/color_background_light_purple</item>
+        <item name="android:layout_marginLeft">@dimen/margin_small</item>
+        <item name="android:layout_marginTop">@dimen/margin_medium</item>
+    </style>
+
+    <style name="Phone_Email_Icons_ImageStyle">
+        <item name="android:layout_width">@dimen/icons_width_and_height</item>
+        <item name="android:layout_height">@dimen/icons_width_and_height</item>
+        <item name="android:background">@color/color_background_light_purple</item>
+        <item name="android:layout_marginLeft">@dimen/margin_small</item>
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+    </style>
+
+
+    <style name="Time_Icon_ImageStyle">
+        <item name="android:layout_width">@dimen/icons_width_and_height</item>
+        <item name="android:layout_height">@dimen/icons_width_and_height</item>
+        <item name="android:background">@color/color_background_light_purple</item>
+        <item name="android:layout_marginLeft">@dimen/margin_small</item>
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+        <item name="android:layout_marginBottom">@dimen/margin_small</item>
+
+    </style>
+
+    <style name="ContactDetails_TextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/textSize_large</item>
+        <item name="android:background">@color/color_background_light_purple</item>
+        <item name="android:padding">@dimen/padding_medium</item>
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+    </style>
+
+    <style name="Facebook_Google_Twitter_Icons_ImageStyle">
+        <item name="android:layout_height">@dimen/Facebook_Google_Twitter_width_and_height</item>
+        <item name="android:layout_width">@dimen/Facebook_Google_Twitter_width_and_height</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
+        <item name="android:background">@color/color_background_light_purple</item>
+        <item name="android:padding">@dimen/margin_tiny</item>
+    </style>
+
+    <style name="Thank_You_TextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/textSize_cardHeader</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/color_blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:paddingBottom">@dimen/padding_small</item>
+        <item name="android:paddingEnd">@dimen/padding_small</item>
+        <item name="android:paddingStart">@dimen/padding_medium</item>
+    </style>
+
+</resources>

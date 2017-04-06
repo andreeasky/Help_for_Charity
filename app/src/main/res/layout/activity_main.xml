@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/Main_Layout_Style"
+    tools:context="com.example.android.singlescreenapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/Main_Image"
+        style="@style/Main_Image_Style"
+        android:contentDescription="@string/ContentDescription"
+        android:src="@drawable/hands" />
+
+    <TextView
+        android:id="@+id/AppName"
+        style="@style/App_Name_TextStyle"
+        android:text="@string/text_App_Name" />
+
+    <TextView
+        android:id="@+id/Motto"
+        style="@style/Motto_TextStyle"
+        android:text="@string/text_Motto" />
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Main_Image"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                style="@style/RelativeLayout_1_2_3_Style">
+
+                <TextView
+                    android:id="@+id/About"
+                    style="@style/Card_Header_Style"
+                    android:text="@string/text_Description" />
+
+                <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/Info"
+                    style="@style/Justify_TextStyle"
+                    android:layout_below="@id/About"
+                    ext:documentView_insetPaddingBottom="@dimen/padding_large"
+                    ext:documentView_insetPaddingLeft="@dimen/padding_large"
+                    ext:documentView_insetPaddingRight="@dimen/padding_large"
+                    ext:documentView_insetPaddingTop="@dimen/padding_large"
+                    ext:documentView_text="@string/Information"
+                    ext:documentView_textAlignment="justified"
+                    ext:documentView_textColor="@color/color_blue"
+                    ext:documentView_textSize="@dimen/textSize_medium"
+                    ext:documentView_textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout2"
+                style="@style/RelativeLayout_1_2_3_Style"
+                android:layout_below="@id/RelativeLayout1">
+
+                <TextView
+                    android:id="@+id/ListOfCharities"
+                    style="@style/Card_Header_Style"
+                    android:text="@string/Charities" />
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalscrollview"
+                    style="@style/HorizontalScrollView_Style"
+                    android:layout_below="@id/ListOfCharities"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/LinearLayout1_height"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            style="@style/Charities_ImageStyle"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/ContentDescription"
+                            android:src="@drawable/protect_animals" />
+
+                        <ImageView
+                            style="@style/Charities_ImageStyle"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/ContentDescription"
+                            android:src="@drawable/cure_cancer" />
+
+                        <ImageView
+                            style="@style/Charities_ImageStyle"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/ContentDescription"
+                            android:src="@drawable/environment_protection" />
+
+                        <ImageView
+                            style="@style/Charities_ImageStyle"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/ContentDescription"
+                            android:src="@drawable/organization_against_poverty" />
+
+                        <ImageView
+                            style="@style/Charities_ImageStyle"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/ContentDescription"
+                            android:src="@drawable/save_children_association" />
+
+                        <ImageView
+                            style="@style/Charities_ImageStyle"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/ContentDescription"
+                            android:src="@drawable/stand_up_to_diabetes" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout2"
+                style="@style/LinearLayout_2_11_and_12_Style"
+                android:layout_below="@id/RelativeLayout2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Help"
+                        style="@style/Card_Header_Style"
+                        android:text="@string/Help" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout4"
+                    style="@style/LinearLayout4_Style"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Motto_Button_Click"
+                        style="@style/MottoText_Button_Style"
+                        android:text="@string/text_Motto_Button_Click" />
+
+                    <Button
+                        android:id="@+id/Click"
+                        style="@style/Button_Style"
+                        android:background="@drawable/roundshapebtn_purple"
+                        android:text="@string/text_Button_Click" />
+
+                    <TextView
+                        android:id="@+id/Button_Click_Text"
+                        style="@style/TextMessage_Button_Style"
+                        android:text="@string/text_Message_Button_Click" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout5"
+                    style="@style/LinearLayout5_Style"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Motto_Button_Play"
+                        style="@style/MottoText_Button_Style"
+                        android:text="@string/text_Motto_Button_Play" />
+
+                    <Button
+                        android:id="@+id/Play"
+                        style="@style/Button_Style"
+                        android:background="@drawable/roundshapebtn_light_blue"
+                        android:text="@string/text_Button_Play" />
+
+                    <TextView
+                        android:id="@+id/Button_Play_Text"
+                        style="@style/TextMessage_Button_Style"
+                        android:text="@string/text_Message_Button_Play" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout6"
+                    style="@style/LinearLayout6_Style"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Motto_Button_See"
+                        style="@style/MottoText_Button_Style"
+                        android:text="@string/text_Motto_Button_See" />
+
+                    <Button
+                        android:id="@+id/See"
+                        style="@style/Button_Style"
+                        android:background="@drawable/roundshapebtn_blue"
+                        android:text="@string/text_Button_See" />
+
+                    <TextView
+                        android:id="@+id/Button_See_Text"
+                        style="@style/TextMessage_Button_Style"
+                        android:text="@string/text_Message_Button_See" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout3"
+                style="@style/RelativeLayout_1_2_3_Style"
+                android:layout_below="@id/LinearLayout2">
+
+                <TextView
+                    android:id="@+id/ContactDetails"
+                    style="@style/Card_Header_Style"
+                    android:text="@string/Contact_Details" />
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout7"
+                    style="@style/LinearLayout_ContactDetails_Style"
+                    android:layout_below="@id/ContactDetails"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/LocationIcon_ImageStyle"
+                        android:contentDescription="@string/ContentDescription"
+                        android:drawableLeft="@drawable/location"
+                        android:src="@drawable/location" />
+
+                    <TextView
+                        android:id="@+id/Address"
+                        style="@style/ContactDetails_TextStyle"
+                        android:onClick="displayMap"
+                        android:text="@string/Address_Info" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout8"
+                    style="@style/LinearLayout_ContactDetails_Style"
+                    android:layout_below="@id/LinearLayout7"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/Phone_Email_Icons_ImageStyle"
+                        android:contentDescription="@string/ContentDescription"
+                        android:drawableLeft="@drawable/phone"
+                        android:src="@drawable/phone" />
+
+                    <TextView
+                        android:id="@+id/Phone"
+                        style="@style/ContactDetails_TextStyle"
+                        android:autoLink="all"
+                        android:linksClickable="true"
+                        android:text="@string/Phone_Info" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout9"
+                    style="@style/LinearLayout_ContactDetails_Style"
+                    android:layout_below="@id/LinearLayout8"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/Phone_Email_Icons_ImageStyle"
+                        android:contentDescription="@string/ContentDescription"
+                        android:drawableLeft="@drawable/email"
+                        android:src="@drawable/email" />
+
+                    <TextView
+                        android:id="@+id/Email"
+                        style="@style/ContactDetails_TextStyle"
+                        android:onClick="sendEmail"
+                        android:text="@string/Email_Info" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout10"
+                    style="@style/LinearLayout_ContactDetails_Style"
+                    android:layout_below="@id/LinearLayout9"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/Time_Icon_ImageStyle"
+                        android:contentDescription="@string/ContentDescription"
+                        android:drawableLeft="@drawable/time"
+                        android:src="@drawable/time" />
+
+                    <TextView
+                        android:id="@+id/HoursOfOperation"
+                        style="@style/ContactDetails_TextStyle"
+                        android:text="@string/HoursOfOperation_Info" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout11"
+                style="@style/LinearLayout_2_11_and_12_Style"
+                android:layout_below="@id/RelativeLayout3"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Facebook_Icon"
+                    style="@style/Facebook_Google_Twitter_Icons_ImageStyle"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/ContentDescription"
+                    android:src="@drawable/facebook" />
+
+                <ImageView
+                    android:id="@+id/Google_Icon"
+                    style="@style/Facebook_Google_Twitter_Icons_ImageStyle"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/ContentDescription"
+                    android:src="@drawable/google" />
+
+                <ImageView
+                    android:id="@+id/Twitter_Icon"
+                    style="@style/Facebook_Google_Twitter_Icons_ImageStyle"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/ContentDescription"
+                    android:src="@drawable/twitter" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout12"
+                style="@style/LinearLayout_2_11_and_12_Style"
+                android:layout_below="@id/LinearLayout11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Thank_You"
+                    style="@style/Thank_You_TextStyle"
+                    android:text="@string/Thank_You_message" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

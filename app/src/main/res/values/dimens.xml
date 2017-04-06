@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="textSize_small">9sp</dimen>
+    <dimen name="textSize_medium">12sp</dimen>
+    <dimen name="textSize_large">14sp</dimen>
+    <dimen name="textSize_cardHeader">16sp</dimen>
+    <dimen name="textSize_Button_and_Motto">18sp</dimen>
+    <dimen name="textSize_AppName">22sp</dimen>
+    <dimen name="padding_tiny">2dp</dimen>
+    <dimen name="padding_tiny_x">3dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="padding_extra_large">12dp</dimen>
+    <dimen name="margin_tiny">2dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_medium">6dp</dimen>
+    <dimen name="margin_large">8dp</dimen>
+    <dimen name="margin_extra_large">10dp</dimen>
+    <dimen name="Facebook_Google_Twitter_width_and_height">35dp</dimen>
+    <dimen name="icons_width_and_height">40dp</dimen>
+    <dimen name="Motto_Buttons_TextView_height">60dp</dimen>
+    <dimen name="LinearLayout1_height">100dp</dimen>
+    <dimen name="Charities_layout_width">108dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_width">78dp</dimen>
+</resources>

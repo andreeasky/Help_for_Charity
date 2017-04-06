@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Help for Charity</string>
+    <string name="ContentDescription">Image</string>
+    <string name="text_Motto">CLICK and PLAY to Give Away</string>
+    <string name="text_App_Name">HELP FOR CHARITY</string>
+    <string name="text_Description">About</string>
+    <string name="Information">This is a non-profit organization that serves a few Charities which make an impact and conduct activities focused on improving the quality of life for people and animals and on protecting and conserving nature.
+\nOur greatest fulfillment is to make a difference for those who need support, to provide a better living for them and a clean environment that supports life in all its forms.
+\nWe strive to do anything that we can in order to make a better world and we inspire others to do the same.
+\nWe work with a few Sponsors that donate money to Charities based on this organization’s activity.</string>
+    <string name="Charities">Charities</string>
+    <string name="Help">How can you help?</string>
+    <string name="Contact_Details">Contact Us</string>
+    <string name="Details">Info</string>
+    <string name="text_Button_Click">CLICK</string>
+    <string name="text_Button_Play">PLAY</string>
+    <string name="text_Button_See">SEE</string>
+    <string name="text_Motto_Button_Click">Click and Give</string>
+    <string name="text_Motto_Button_Play">Play and Donate</string>
+    <string name="text_Motto_Button_See">Thank You to Sponsors</string>
+    <string name="text_Message_Button_Click">Every Click Counts! \nBy every click you \ngive money to Charities</string>
+    <string name="text_Message_Button_Play">An Educational Game \nEvery correct answer \ndonates money \nto Charities</string>
+    <string name="text_Message_Button_See">Links to Sponsors \nWebsites</string>
+    <string name="Address_Info">Friendship Str. 7, 03711 Bucharest, Romania</string>
+    <string name="Phone_Info">+40 123 456 789</string>
+    <string name="Email_Info">clickandplaytogiveaway@gmail.com</string>
+    <string name="HoursOfOperation_Info">Monday to Friday: 8:00 - 16:00</string>
+    <string name="Thank_You_message">THANK YOU for making a DIFFERENCE!</string>
+</resources>
