@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         SpannableString content = new SpannableString("clickandplaytogiveaway@gmail.com");
         content.setSpan(new UnderlineSpan(), 0, content.length(), 0);
         textView.setText(content);
-
     }
 
     /**

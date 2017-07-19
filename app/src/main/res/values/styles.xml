@@ -66,7 +66,6 @@
         <item name="android:background">@drawable/card</item>
     </style>
 
-
     <style name="Card_Header_Style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -91,7 +90,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@color/color_background_light_purple</item>
     </style>
-
 
     <style name="HorizontalScrollView_Style">
         <item name="android:layout_width">match_parent</item>
@@ -173,7 +171,6 @@
         <item name="android:paddingBottom">@dimen/padding_large</item>
     </style>
 
-
     <style name="LinearLayout_ContactDetails_Style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -195,7 +192,6 @@
         <item name="android:layout_marginLeft">@dimen/margin_small</item>
         <item name="android:layout_marginTop">@dimen/margin_small</item>
     </style>
-
 
     <style name="Time_Icon_ImageStyle">
         <item name="android:layout_width">@dimen/icons_width_and_height</item>
